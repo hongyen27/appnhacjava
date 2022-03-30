@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    tools:showIn="navigation"
+
+    <group android:checkableBehavior="single">
+        <item android:title="Offline">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_favor"
+                    android:title="Yêu thích" />
+            </menu>
+
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Online">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_online"
+                    android:title="Online Music" />
+                <item
+                    android:id="@+id/nav_upload"
+                    android:title="Upload" />
+
+            </menu>
+
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title=" ">
+            <menu>
+                <item
+                    android:id="@+id/nav_timer"
+                    android:title="Hẹn giờ"
+                    app:actionLayout="@layout/spinner_timer"/>
+
+            </menu>
+
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/neww"
+        android:title="Mới nhất" />
+    <item
+        android:id="@+id/hott"
+        android:title="Hot nhất" />
+</menu>
